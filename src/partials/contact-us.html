@@ -1,3 +1,47 @@
-<section class="contact">
-  <div class="container">Contact us</div>
+<section class="contact-us">
+  <div class="container">
+    <h2 class="contact-title">Contact Us</h2>
+    <div class="container-contact">
+      <div class="contact-field">
+        <p class="contact-text">
+         Please use the form below to contact us. Enter your name, email, phone, and message and we'll get back to you shortly.
+        </p>
+        <form class="form-contact" name="form-contact">
+         <label for="user-name" class="contact-label"></label>
+          <input type="text" name="name" id="user-name" placeholder="Name" class="contact-imput"/>
+         <label for="user-email" class="contact-label"></label> 
+          <input type="email" name="email" id="user-email" placeholder="Email" required pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})"  class="contact-imput"/>
+         <label for="user-tel" class="contact-label"></label>
+         <input type="tel" name="tel" id="user-tel" placeholder="+380" required pattern="^\+\d{3}-\d{2}-\d{3}-\d{2}-\d{2}$ (+380-XX-XXX-XX-XX)" class="contact-imput"/> 
+         <label for="user-comment" class="label-textarea"></label>
+          <textarea class="contact-textarea" name="user-comment" id="user-comment" placeholder="Comment" rows="5"></textarea>  
+         <button type="submit" class="contact-button">Send</button>
+        </form>
+      </div>
+     <picture class="image-watch">
+        <source
+         srcset="
+         /images/Rectangle-dis-1x.jpg    1x, 
+         /images/Rectangle-dis-2x.jpg 2x 
+         "
+         media="(min-width: 1280px)"
+        />
+        <source
+         srcset="
+         /images/Rectangle-tab-1x.jpg    1x, 
+         /images/Rectangle-tab-2x.jpg 2x 
+         "
+         media="(min-width: 768px)"
+       />  
+       <source
+         srcset="
+         /images/Rectangle-mob-1x.jpg    1x, 
+         /images/Rectangle-mob-2x.jpg 2x 
+         "
+         media="(min-width: 320px)"
+        />
+       <img src="/images/Rectangle-mob-1x.jpg" alt="Watch" class="card" class="responsive-image"/>
+      </picture>
+    </div>
+  </div>
 </section>
