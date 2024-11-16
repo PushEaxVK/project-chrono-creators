@@ -39,11 +39,14 @@
 .hero-item:nth-child(2) {
   transform: translate(-12px, 0);
 }
+
 .hero-item:nth-child(3) {
   transform: translate(-24px, 0);
 }
 
 .hero-picture {
+  width: 40px;
+  height: 40px;
 }
 
 .hero-link {
@@ -57,4 +60,34 @@
 
 .hero-image {
   border-radius: 30px;
+}
+
+@media (min-width: 768px) {
+  .hero-picture {
+    width: 56px;
+    height: 56px;
+  }
+
+  .hero-item:nth-child(2) {
+    transform: translate(-15px, 0);
+  }
+
+  .hero-item:nth-child(3) {
+    transform: translate(-30px, 0);
+  }
+}
+
+@media (min-width: 1280px) {
+  .hero-picture {
+    width: 60px;
+    height: 60px;
+  }
+
+  .hero-item:nth-child(2) {
+    transform: translate(-16px, 0);
+  }
+
+  .hero-item:nth-child(3) {
+    transform: translate(-32px, 0);
+  }
 }
