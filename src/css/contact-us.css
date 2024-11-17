@@ -1,4 +1,4 @@
-.contact-us {
+.contact {
   max-width: 375px;
   margin-top: 30px;
   margin-bottom: 30px;
@@ -112,14 +112,16 @@
 }
 
 .image-watch {
-  border-radius: 30px;
   min-width: 320px;
   height: 512px;
-  background-color: url(/img/contact-us/Rectangle-dis-1x.jpg);
+}
+
+.card {
+  border-radius: 30px;
 }
 
 @media screen and (min-width: 768px) {
-  .contact-us {
+  .contact {
     margin-top: 40px;
     margin-bottom: 40px;
     max-width: 768px;
@@ -180,9 +182,12 @@
   }
 
   .image-watch {
-    border-radius: 50px;
     max-width: 704px;
     height: 556px;
+  }
+
+  .card {
+    border-radius: 50px;
   }
 }
 
@@ -193,7 +198,7 @@
     gap: 40px;
   }
 
-  .contact-us {
+  .contact {
     max-width: 1280px;
     margin-top: 50px;
     margin-bottom: 50px;
