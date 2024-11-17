@@ -53,7 +53,7 @@
 
 .customers-review {
     font-weight: 500;
-    font-size: 16px;
+    font-size: 14px;
     line-height: 1.25;
     letter-spacing: -0.02em;
     text-align: center;
@@ -92,6 +92,10 @@
         width: 344px;
     }
 
+    .customers-review {
+        font-size: 16px;
+    }
+
     .review-hidden-mob {
         display: flex;
     }
@@ -127,16 +131,6 @@
         width: 370px;
     }
 
-    .customers-photo {
-        background-color: #fbfbfb;
-        border-radius: 100%;
-        stroke-width: 2px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-
-    }
-
     .customers-name {
         font-weight: 500;
         font-size: 18px;
@@ -149,12 +143,6 @@
     }
 
     .customers-review {
-        font-weight: 500;
         font-size: 16px;
-        line-height: 1.25;
-        letter-spacing: -0.02em;
-        text-align: center;
-        color: rgba(12, 12, 12, 0.4);
-        margin-bottom: 32px;
     }
 }
