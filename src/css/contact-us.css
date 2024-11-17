@@ -1,9 +1,9 @@
 .contact {
   max-width: 375px;
+  margin: 0 auto;
   margin-top: 30px;
   margin-bottom: 30px;
   background-color: #fbfbfb;
-  margin: 0 auto;
 }
 
 .contact-title {
@@ -126,7 +126,6 @@
     margin-bottom: 40px;
     max-width: 768px;
     display: block;
-    margin: 0 auto;
     gap: 40px;
   }
 
