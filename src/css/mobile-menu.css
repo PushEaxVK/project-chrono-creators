@@ -3,12 +3,13 @@
   position: fixed;
   top: 0;
   left: 0;
-  width: 200px;
+  width: 100%;
   height: 100%;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-url(/images/mobile-menu-clock.webp);
+  background-image: url('../img/mobile-menu/mobile-menu-clock.webp');
+
   background-color: #fff;
   z-index: 2;
   padding: 72px 16px 24 16px;
@@ -26,22 +27,26 @@ url(/images/mobile-menu-clock.webp);
 @media screen and (-webkit-min-device-pixel-ratio: 2),
   (min-resolution: 192dpi) {
   .mobile-menu {
-   
-      url(/images/mobile-menu-clock-2x.webp);
+    background-image: url('../img/mobile-menu/mobile-menu-clock-2x.webp');
   }
 }
 
 @media screen and (min-width: 768px) {
- .mobile-menu {
+  .mobile-menu {
+    background-image: url('../img/mobile-menu/tablet-menu-clock.webp');
+  }
+}
 
- }
-     
+@media screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 768px),
+  (min-resolution: 192dpi) and (min-width: 768px) {
+  .mobile-menu {
+    background-image: url('../img/mobile-menu/tablet-menu-clock-2x.webp');
+  }
 }
 
 .mobile-menu.is-open {
   display: flex;
   opacity: 1;
-
   visibility: visible;
   pointer-events: auto;
   transform: translateY(0);
@@ -58,10 +63,10 @@ url(/images/mobile-menu-clock.webp);
 
 .mobile-menu-close {
   position: absolute;
-  top: 24px;
-  right: 24px;
-  width: 24px;
-  height: 24px;
+  top: 20px;
+  right: 20px;
+  width: 34px;
+  height: 34px;
   border-radius: 50%;
   display: flex;
   align-items: center;
@@ -74,22 +79,19 @@ url(/images/mobile-menu-clock.webp);
 }
 
 @media screen and (min-width: 1280px) {
-  .mobile-menu-close {
-    display: none;
-  }
-  .mobile-menu.is-open {
+  .mobile-menu {
     display: none;
   }
 }
 
 .mobile-menu-nav {
   margin-bottom: auto;
-  padding-top: 72px;
+  padding-top: 240px;
   display: flex;
   align-items: center;
-  justify-content: flex-start;
   flex-direction: column;
-  gap: 40px;
+  left: 63px;
+  gap: 24px;
 }
 
 .mobile-menu-link {
@@ -97,18 +99,16 @@ url(/images/mobile-menu-clock.webp);
   font-size: 36px;
   line-height: 1.11111;
   letter-spacing: 0.02em;
-  color: #2e2f42;
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  color: #fbfbfb;
 }
 
 .mobile-menu-socials {
-  margin-top: 48px;
   display: flex;
   align-items: flex-start;
   justify-content: flex-start;
-  flex-direction: row;
   justify-content: center;
-  gap: 40px;
+  flex-direction: row;
+  gap: 10px;
 }
 
 .social-link {
@@ -117,18 +117,11 @@ url(/images/mobile-menu-clock.webp);
   justify-content: center;
   width: 40px;
   height: 40px;
-  border-radius: 50%;
   background-color: #4d5ae5;
 }
 
 .social-icon {
   fill: #f4f4fd;
-}
-
-@media screen and (min-width: 768px) {
-  .mobile-menu {
-    display: none;
-  }
 }
 
 .section-padding {
