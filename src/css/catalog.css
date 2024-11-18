@@ -55,6 +55,7 @@ img {
   width: 208px;
   height: 226px;
   text-align: center;
+  margin-bottom: 28px;
 }
 
 
@@ -148,6 +149,7 @@ img {
     .img-clock {
      width: 268px;
      height: 292px;
+     margin-bottom: 20px;
      
      }
 
@@ -211,6 +213,7 @@ img {
      .img-clock {
        width: 292px;
        height: 292px;
+       margin-bottom: 24px;
        
      }
 
@@ -218,6 +221,7 @@ img {
 
      .name-clock {
       width: 304px;
+      
     
     
 }
