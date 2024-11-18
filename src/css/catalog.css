@@ -1,4 +1,4 @@
-#catalog {
+.catalog {
   margin: 30px 0;
  
 
@@ -45,12 +45,6 @@
     
 }
 
-
-img {
-  display: block;
-  
-       
-}
 .img-clock {
   width: 208px;
   height: 226px;
@@ -113,7 +107,7 @@ img {
 
 @media only screen and (min-width: 768px) {
 
-    #catalog {
+    .catalog {
       margin: 40px 0;
 
     }
@@ -185,7 +179,7 @@ img {
 
 @media only screen and (min-width: 1280px) {
 
-    #catalog {
+    .catalog {
      margin: 50px 0;
 
     }
