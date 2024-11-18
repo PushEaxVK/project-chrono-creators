@@ -1,5 +1,6 @@
-.catalog {
-  padding: 60px 0;
+#catalog {
+  margin: 30px 0;
+ 
 
 }
 
@@ -17,32 +18,46 @@
     list-style-type: none;
     margin-left: 0;
     margin-top: 24px;
-    padding: 0px 20px;
+    padding-left: 20px;
+    padding-right: 20px;
     display: flex;
     flex-direction: column;
+    align-items: center;
     gap: 20px;
     width: 335px;
+
+    
 }
 
 .name-goods {
     border: 1px solid rgba(12, 12, 12, 0.05);
     border-radius: 30px;
     background: #f3f3f3;
-    padding: 24px 28px;
     gap: 10px;
+    padding: 24px 28px;
+    
 }
+
+
 
 .none {
     display: none;
+    
 }
 
 
 img {
   display: block;
-  width: 100%;
-  height: auto;
-     
+  
+       
 }
+.img-clock {
+  width: 208px;
+  height: 226px;
+  text-align: center;
+}
+
+
 
 .name-clock {
     
@@ -51,8 +66,8 @@ img {
     line-height: 1.25;
     letter-spacing: -0.02em;
     color: #0c0c0c;
-    text-align: left;
     width: 279px;
+    margin-bottom: 8px;
 }
 
 .cost-clock {
@@ -62,6 +77,7 @@ img {
     line-height: 1.3;
     letter-spacing: -0.02em;
     color: rgba(12, 12, 12, 0.5);
+    
 }
 
 
@@ -96,8 +112,8 @@ img {
 
 @media only screen and (min-width: 768px) {
 
-    .catalog {
-      padding: 80px 0;
+    #catalog {
+      margin: 40px 0;
 
     }
     
@@ -107,7 +123,14 @@ img {
       justify-content: center;
       gap: 16px;
       width: 704px;
+      margin-top: 40px;
+      padding-left: 0;
+      padding-right: 0;
+      
     }
+
+    
+   
 
     .none {
       display: flex;
@@ -118,8 +141,15 @@ img {
     .name-goods {
       
      width: calc((100% - 16px) / 2);
+     height: 414px;
      
     }
+
+    .img-clock {
+     width: 268px;
+     height: 292px;
+     
+     }
 
 
     .ctlg-name {
@@ -127,15 +157,23 @@ img {
       line-height: 0.92;
       letter-spacing: -0.02em;
       color: #0c0c0c;
+      margin-left: 32px;
 }
 
     .name-clock {
       font-size: 20px;
       line-height: 1;
       width: 280px;
+      white-space: nowrap;        
+      overflow: hidden;           
+      text-overflow: ellipsis;
+      
+}    
+    .cost-clock {
+      padding: 0;
+    }
     
-    
-}
+
 
     .btn {
       display: none;
@@ -145,21 +183,38 @@ img {
 
 @media only screen and (min-width: 1280px) {
 
-    .catalog {
-     padding: 100px 0;
+    #catalog {
+     margin: 50px 0;
 
+    }
+    .ctlg-name {
+      margin-left: 50px;
     }
  
     .goods {
-       justify-content: space-between;  
+       justify-content: space-between; 
        gap: 23px;
        width: 1150px;
+     
        
     }
      .name-goods {
       width: calc((100% - 46px) / 3);
       
      }
+
+     .goods-clock {
+       width: 304px;
+
+    }
+
+     .img-clock {
+       width: 292px;
+       height: 292px;
+       
+     }
+
+
 
      .name-clock {
       width: 304px;
@@ -169,5 +224,3 @@ img {
 
   
 }
-
-
