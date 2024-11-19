@@ -21,6 +21,7 @@
     <symbol id="icon-Vector-13" viewBox="0 0 4464 32">
       <path stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="4" stroke-width="16" d="M0 16h4464"></path>
     </symbol>
+
     <symbol id="icon-x" viewBox="0 0 32 32">
       <path
         d="M24 6.8a1.2 1.2 0 0 0-.849.351l-16 16c-.217.217-.351.517-.351.849s.134.631.351.849a1.196 1.196 0 0 0 1.696 0l16-16a1.196 1.196 0 0 0 0-1.696 1.196 1.196 0 0 0-.849-.351z" />
