@@ -2,8 +2,8 @@
   margin-top: 30px;
   margin-bottom: 30px;
 }
-.about-us picture {
-  flex-shrink: 0.3;
+.about-wrapper picture {
+  flex-shrink: 0;
   max-width: 100%;
 }
 
@@ -96,5 +96,9 @@
   .about-wrapper {
     flex-wrap: nowrap;
     gap: 40px;
+  }
+
+  .about-list {
+    margin-bottom: 40px;
   }
 }
