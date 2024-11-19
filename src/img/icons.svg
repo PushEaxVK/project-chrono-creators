@@ -22,11 +22,11 @@
       <path stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="4" stroke-width="16" d="M0 16h4464"></path>
     </symbol>
     <symbol id="icon-x" viewBox="0 0 32 32">
-      <path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="2.3529" d="M24 8l-16 16">
-      </path>
-      <path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="2.3529" d="M8 8l16 16">
-      </path>
-
+      <path
+        d="M24 6.8a1.2 1.2 0 0 0-.849.351l-16 16c-.217.217-.351.517-.351.849s.134.631.351.849a1.196 1.196 0 0 0 1.696 0l16-16a1.196 1.196 0 0 0 0-1.696 1.196 1.196 0 0 0-.849-.351z" />
+      <path
+        d="M8 6.8A1.196 1.196 0 0 0 6.801 8c0 .332.134.631.351.848l16 16c.217.217.517.351.849.351s.631-.134.849-.351c.217-.217.351-.517.351-.849s-.134-.631-.351-.849l-16-16a1.196 1.196 0 0 0-.848-.351z" />
     </symbol>
+
   </defs>
 </svg>
