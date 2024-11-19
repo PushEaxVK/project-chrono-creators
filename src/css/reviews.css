@@ -24,7 +24,7 @@
     align-items: center;
     justify-content: center;
     text-align: center;
-    gap: 20px;
+    gap: 24px;
     border-radius: 30px;
     padding: 32px 36px;
     width: 335px;
@@ -43,8 +43,8 @@
 
 .customers-name {
     font-weight: 500;
-    font-size: 18px;
-    line-height: 1.1;
+    font-size: 16px;
+    line-height: 1.25;
     letter-spacing: -0.02em;
     text-align: center;
     color: #0c0c0c;
@@ -54,7 +54,7 @@
 .customers-review {
     font-weight: 500;
     font-size: 14px;
-    line-height: 1.25;
+    line-height: 1.28;
     letter-spacing: -0.02em;
     text-align: center;
     justify-content: center;
@@ -104,6 +104,10 @@
         display: none;
     }
 
+    .customers-name {
+        font-size: 18px;
+        line-height: 1.1;
+    }
 }
 
 @media (min-width: 1280px) {
