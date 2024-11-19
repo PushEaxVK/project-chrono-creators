@@ -62,7 +62,6 @@
     height: 1024px;
   }
 }
-
 .mobile-menu-close {
   position: absolute;
   top: 20px;
@@ -73,7 +72,6 @@
   color: white;
   cursor: pointer;
 }
-
 @media screen and (min-width: 1280px) {
   .mobile-menu {
     display: none;
