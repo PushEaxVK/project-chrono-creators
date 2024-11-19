@@ -13,5 +13,8 @@
     <symbol id="icon-Vector-13" viewBox="0 0 4464 32">
       <path stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="4" stroke-width="16" d="M0 16h4464"></path>
     </symbol>
+    <symbol id="icon-menu-open" viewBox="0 0 32 32">
+      <path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="2.4" d="M4 11.333h24M4 20.667h24"></path>
+    </symbol>
   </defs>
 </svg>
