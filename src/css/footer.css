@@ -2,6 +2,8 @@
     border-radius: 30px;
     padding: 40px 28px 28px 28px;
     background-color: #0c0c0c;
+    margin-top: 30px;
+    max-width: 335px;
 }
 .logo_n_soc{
     display: flex;
@@ -73,7 +75,7 @@ text-align: center;
 color: #fbfbfb;
 display: flex;
 justify-self: center;
-margin-bottom: 80px;
+margin-bottom: 92px;
 
 }
 .nav_n_adress{
@@ -140,12 +142,10 @@ color: rgba(251, 251, 251, 0.5);
 }
 
 @media (min-width: 768px) {
-    .container {
-    max-width: 736px;
-    }
     .footer-container{
     padding: 40px 40px 28px 40px;
     position: relative;
+    max-width: 704px;
     }
     .logo-footer{
     font-size: 20px;
@@ -215,13 +215,9 @@ text-align: right;
 }
 
 @media (min-width: 1280px) {
-    .container {
-    max-width: 1180px;
-    padding-left: 15px;
-    padding-right: 15px;
-    }
     .footer-container{
         padding: 40px 40px 28px 40px;
+        max-width: 1216px;
     }
 
     .title-footer{
@@ -230,6 +226,7 @@ text-align: right;
         top: 40px;
         left:50%;
         transform:translate(-50%);
+        margin-bottom: 0;
     }
     .logo_n_soc{
         margin-bottom: 142px;
