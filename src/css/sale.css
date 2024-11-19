@@ -1,5 +1,6 @@
 .sale {
-  margin-bottom: 60px;
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 .sale-title {
   font-weight: 600;
@@ -122,7 +123,8 @@
 
 @media screen and (min-width: 768px) {
   .sale {
-    margin-bottom: 80px;
+    margin-top: 40px;
+    margin-bottom: 40px;
   }
   .sale-title {
     font-size: 48px;
@@ -202,7 +204,8 @@
 
 @media screen and (min-width: 1280px) {
   .sale {
-    margin-bottom: 100px;
+    margin-top: 50px;
+    margin-bottom: 50px;
   }
   .sale-content {
     display: flex;
