@@ -25,12 +25,9 @@
   border: 1px solid rgba(12, 12, 12, 0.05);
   border-radius: 16px;
   background-color: #f3f3f3;
-  padding: 13px 14px;
+  padding: 12px 13px;
 }
-.sale-watch-photo {
-  min-width: 52px;
-  min-height: 54px;
-}
+
 .sale-watch-photo-main {
   min-width: 235px;
   min-height: 285px;
@@ -212,12 +209,10 @@
     flex-wrap: nowrap;
     flex-direction: row;
   }
-  .sale-photos-item {
-    padding: 16px;
-  }
+
   .sale-main-photo {
     flex-basis: unset;
-    padding: 80px 50px;
+    padding: 79px 49px;
     margin-bottom: 0;
     margin-right: 40px;
   }
