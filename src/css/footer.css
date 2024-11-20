@@ -1,8 +1,10 @@
+.footer{
+    margin-top: 30px;
+}
 .footer-container{
     border-radius: 30px;
     padding: 40px 28px 28px 28px;
     background-color: #0c0c0c;
-    margin-top: 30px;
     max-width: 335px;
 }
 .logo_n_soc{
@@ -142,6 +144,9 @@ color: rgba(251, 251, 251, 0.5);
 }
 
 @media (min-width: 768px) {
+    .footer {
+        margin-top: 40px;
+    }
     .footer-container{
     padding: 40px 40px 28px 40px;
     position: relative;
@@ -215,6 +220,9 @@ text-align: right;
 }
 
 @media (min-width: 1280px) {
+    .footer {
+        margin-top: 50px;
+    }
     .footer-container{
         padding: 40px 40px 28px 40px;
         max-width: 1216px;
