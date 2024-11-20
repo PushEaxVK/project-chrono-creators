@@ -97,7 +97,7 @@
     margin-top: 50px;
     margin-bottom: 50px;
   }
-  пш .about-wrapper {
+  .about-wrapper {
     flex-wrap: nowrap;
     gap: 40px;
   }
