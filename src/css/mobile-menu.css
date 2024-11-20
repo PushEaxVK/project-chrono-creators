@@ -50,18 +50,25 @@
   transform: translateY(0);
 }
 
+@media screen and (min-width: 1280px) {
+  .mobile-menu.is-open {
+    display: none;
+  }
+}
+
 .mobile-menu-container {
   position: relative;
   width: 200px;
-  height: 812px;
+  height: 100%;
 }
 
 @media screen and (min-width: 768px) {
   .mobile-menu-container {
     width: 330px;
-    height: 1024px;
+    height: 100%;
   }
 }
+
 .mobile-menu-close {
   position: absolute;
   top: 20px;
@@ -71,7 +78,18 @@
   border: none;
   color: white;
   cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
+
+@media screen and (min-width: 768px) {
+  .mobile-menu-close {
+    width: 40px;
+    height: 40px;
+  }
+}
+
 @media screen and (min-width: 1280px) {
   .mobile-menu {
     display: none;
