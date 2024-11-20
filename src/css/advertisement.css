@@ -6,7 +6,7 @@
      font-family: Gilroy;
      font-size: 14px;
      font-weight: 500;
-     line-height: 18px;
+     line-height: 1.2;
      text-align: center;
      text-underline-position: from-font;
      text-decoration-skip-ink: none;
@@ -25,13 +25,24 @@
      color: #0c0c0c;
  }
 
+ .advertisement-button:hover {
+     background-color: #FBFBFB;
+     color: #0c0c0c;
+ }
+
+ .advertisement-button:focus {
+     background-color: #FBFBFB;
+     color: #0c0c0c;
+ }
+
  @media screen and (max-width: 768px) {
      .advertisement {
          display: flex;
          flex-direction: column;
          align-items: center;
          justify-content: center;
-         height: 483px;
+         margin-top: 30px;
+         margin-bottom: 30px;
          width: 100%;
      }
 
@@ -39,7 +50,7 @@
          width: 335px;
          height: 363px;
          background: #0c0c0c;
-         background-image: url(../img/catalog/image\ 70.png);
+         background-image: url(../img/advertisement/image70.png);
          border-radius: 30px;
          background-repeat: no-repeat;
      }
@@ -48,7 +59,7 @@
          font-family: 'Gilroy', sans-serif;
          font-size: 32px;
          font-weight: 600;
-         line-height: 32px;
+         line-height: 1;
          letter-spacing: -0.02em;
          text-align: left;
          text-underline-position: from-font;
@@ -70,7 +81,8 @@
          flex-direction: column;
          align-items: center;
          justify-content: center;
-         height: 586px;
+         margin-top: 40px;
+         margin-bottom: 40px;
          width: 100%;
      }
 
@@ -78,7 +90,7 @@
          width: 704px;
          height: 425px;
          background: #0c0c0c;
-         background-image: url(../img/catalog/image\ 70-2-1x.png);
+         background-image: url(../img/advertisement/image70-2-1x.png);
          border-radius: 30px;
          background-repeat: no-repeat;
      }
@@ -87,7 +99,7 @@
          font-family: 'Gilroy', sans-serif;
          font-size: 48px;
          font-weight: 600;
-         line-height: 44px;
+         line-height: 1;
          letter-spacing: -0.02em;
          text-align: left;
          text-underline-position: from-font;
@@ -108,7 +120,8 @@
          flex-direction: column;
          align-items: center;
          justify-content: center;
-         height: 498px;
+         margin-top: 50px;
+         margin-bottom: 50px;
          width: 100%;
      }
 
@@ -116,7 +129,7 @@
          width: 1150px;
          height: 298px;
          background: #0c0c0c;
-         background-image: url(../img/catalog/image\ 70-3-1x.png);
+         background-image: url(../img/advertisement/image70-3-1x.png);
          border-radius: 30px;
          background-repeat: no-repeat;
          align-items: center;
@@ -130,7 +143,7 @@
          font-family: 'Gilroy', sans-serif;
          font-size: 48px;
          font-weight: 600;
-         line-height: 44px;
+         line-height: 41;
          letter-spacing: -0.02em;
          text-align: left;
          text-underline-position: from-font;
