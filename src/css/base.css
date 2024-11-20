@@ -6,6 +6,10 @@
   letter-spacing: -0.02em;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   color: #0c0c0c;
   background-color: #fbfbfb;
