@@ -96,7 +96,7 @@
   align-content: stretch;
   gap: 8px 16px;
 }
-.nav-link {
+.nav-link-footer {
   font-size: 12px;
   line-height: 1.33;
   text-align: center;
@@ -193,7 +193,7 @@
     flex-wrap: nowrap;
     gap: 19px;
   }
-  .nav-link {
+  .nav-link-footer {
     font-size: 14px;
     line-height: 1.29;
   }
