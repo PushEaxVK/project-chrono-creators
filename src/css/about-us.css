@@ -93,7 +93,11 @@
 }
 
 @media (min-width: 1280px) {
-  .about-wrapper {
+  .about-us {
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  пш .about-wrapper {
     flex-wrap: nowrap;
     gap: 40px;
   }
