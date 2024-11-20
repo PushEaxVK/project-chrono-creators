@@ -1,5 +1,6 @@
 .catalog {
   margin: 30px 0;
+ 
   
 }
 
@@ -9,7 +10,7 @@
   line-height: 1;
   letter-spacing: -0.02em;
   color: #0c0c0c;
-  margin-left: 20px;
+  
 }
 
 .goods {
@@ -17,10 +18,11 @@
   margin-left: 0;
   margin-top: 24px;
   gap: 20px;
-  padding: 0 20px;
-  width: 335px;
+  width: 100%;
+  height: auto;
   display: flex;
   align-items: center;
+  justify-content: center;
   flex-direction: column;
 }
 
@@ -28,13 +30,11 @@
   border: 1px solid rgba(12, 12, 12, 0.05);
   border-radius: 30px;
   background: #f3f3f3;
-  height: 364px;
-  width: 335px;
-  padding-top: 24px;
-  padding-left: 28px;
-  padding-bottom: 24px;
-  padding-right: 28px;
+  height: auto;
+  width: 100%;
   display: flex;
+  align-items: center;
+  justify-content: center;
   gap: 10px;
 }
 
@@ -43,8 +43,12 @@
 }
 
 .goods-clock {
-  width: 279px;
-  height: 316px;
+  width: 100%;
+  padding-top: 24px;
+  padding-left: 28px;
+  padding-bottom: 24px;
+  padding-right: 28px;
+  height: auto;
 }
 
 .size {
@@ -66,9 +70,13 @@
   line-height: 1.25;
   letter-spacing: -0.02em;
   color: #0c0c0c;
-  width: 279px;
-  padding: 0;
+  width: 100%;
+  max-width: 279px;
   margin-bottom: 8px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+
 }
 
 .cost-clock {
@@ -111,13 +119,8 @@
   .goods {
     flex-direction: row;
     flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
     gap: 16px;
-    width: 704px;
     margin-top: 40px;
-    padding-left: 0;
-    padding-right: 0;
   }
 
   .none {
@@ -126,21 +129,22 @@
 
   .name-goods {
     width: calc((100% - 16px) / 2);
-    height: 414px;
-    padding-left: 32px;
-    padding-right: 32px;
     margin-bottom: 16px;
-  }
+    
+    }
 
   .goods-clock {
-    width: 280px;
-    height: 366px;
+    padding-left: 32px;
+    padding-right: 32px;
+    
   }
 
   .img-clock {
     margin-top: 10px;
     margin-right: 6px;
     margin-left: 6px;
+    margin-bottom: 10px;
+    
   }
 
   .ctlg-name {
@@ -148,7 +152,7 @@
     line-height: 0.92;
     letter-spacing: -0.02em;
     color: #0c0c0c;
-    margin-left: 32px;
+    
   }
 
   .name-clock {
@@ -156,9 +160,7 @@
     line-height: 1;
     width: 280px;
     margin-bottom: 10px;
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
+    
   }
   .cost-clock {
     padding: 0;
@@ -173,34 +175,24 @@
   .catalog {
     margin: 50px 0;
   }
-  .ctlg-name {
-    margin-left: 50px;
-  }
+ 
 
   .goods {
     gap: 23px;
-    width: 1150px;
+    
   }
   .name-goods {
     width: calc((100% - 46px) / 3);
     margin-bottom: 9px;
     
-   
-    
   }
 
-  .goods-clock {
-    width: 304px;
-   
+  .size {
+    height: 292px;
+  }
    
     
-  }
-
- .size {
-   height: 292px;
- 
-}
-
+  
   .name-clock {
     width: 304px;
     margin-bottom: 14px;
