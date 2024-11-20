@@ -30,8 +30,12 @@
   border: 1px solid rgba(12, 12, 12, 0.05);
   border-radius: 30px;
   background: #f3f3f3;
-  height: auto;
+  height: 364px;
   width: 100%;
+  padding-top: 24px;
+  padding-left: 28px;
+  padding-bottom: 24px;
+  padding-right: 28px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -43,18 +47,15 @@
 }
 
 .goods-clock {
-  width: 100%;
-  padding-top: 24px;
-  padding-left: 28px;
-  padding-bottom: 24px;
-  padding-right: 28px;
-  height: auto;
+  width: 279px;
+  height: 316px;
+  
+ 
 }
 
 .size {
-  width: 100%;
-  height: auto;
-  margin: 0 auto;
+  width: 208px;
+  height: 226px;
 }
 
 .img-clock {
@@ -130,13 +131,21 @@
   .name-goods {
     width: calc((100% - 16px) / 2);
     margin-bottom: 16px;
+    height: 414px;
+    padding-left: 32px;
+    padding-right: 32px;
     
     }
 
   .goods-clock {
-    padding-left: 32px;
-    padding-right: 32px;
+    width: 280px;
+    height: 366px;
     
+  }
+
+  .size {
+    width: 268px;
+    height: 292px;
   }
 
   .img-clock {
@@ -183,12 +192,22 @@
   }
   .name-goods {
     width: calc((100% - 46px) / 3);
+    max-width: 368px;
     margin-bottom: 9px;
     
   }
 
+  .goods-clock {
+    width: 304px;
+
+  }
+
   .size {
-    height: 292px;
+    width: 292px;
+  }
+
+  .img-clock {
+    width: 292px;
   }
    
     
