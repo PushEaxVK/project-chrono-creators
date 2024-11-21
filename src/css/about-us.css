@@ -1,6 +1,6 @@
 .about-us {
-  margin-top: 30px;
-  margin-bottom: 30px;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 .about-wrapper picture {
   flex-shrink: 0;
@@ -66,8 +66,8 @@
 
 @media (min-width: 768px) {
   .about-us {
-    margin-top: 40px;
-    margin-bottom: 40px;
+    padding-top: 40px;
+    padding-bottom: 40px;
   }
   .about-wrapper {
     gap: 40px;
@@ -94,8 +94,8 @@
 
 @media (min-width: 1280px) {
   .about-us {
-    margin-top: 50px;
-    margin-bottom: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
   }
   .about-wrapper {
     flex-wrap: nowrap;

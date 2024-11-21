@@ -1,8 +1,8 @@
 .contact {
   max-width: 375px;
   margin: 0 auto;
-  margin-top: 30px;
-  margin-bottom: 30px;
+  padding-top: 30px;
+  padding-bottom: 30px;
   background-color: #fbfbfb;
 }
 
@@ -123,8 +123,8 @@
 
 @media screen and (min-width: 768px) {
   .contact {
-    margin-top: 40px;
-    margin-bottom: 40px;
+    padding-top: 40px;
+    padding-bottom: 40px;
     max-width: 768px;
     display: block;
     gap: 40px;
@@ -200,8 +200,8 @@
 
   .contact {
     max-width: 1280px;
-    margin-top: 50px;
-    margin-bottom: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
   }
 
   .contact-field {
