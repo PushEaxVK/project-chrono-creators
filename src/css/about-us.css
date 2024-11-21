@@ -105,4 +105,9 @@
   .about-list {
     margin-bottom: 40px;
   }
+
+  .content-about {
+    width: 580px;
+    height: 532px;
+  }
 }
